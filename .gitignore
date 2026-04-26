@@ -1,7 +1,8 @@
-# This .gitignore file should be placed at the root of your Unity project directory
-#
+# ==============================================================================
+# UNITY SYSTEM FILES
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
-#
+# ==============================================================================
+
 .utmp/
 /[Ll]ibrary/
 /[Tt]emp/
@@ -73,3 +74,32 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+
+# ==============================================================================
+# PYTHON & ML-AGENTS FILES (Custom additions for RL Project)
+# ==============================================================================
+
+# 1. Python Virtual Environments
+venv/
+env/
+.env/
+.venv/
+
+# 2. Python Cache and Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 3. ML-Agents Training Outputs & Logs
+# (Final .onnx models in Assets/ are kept, raw logs/checkpoints are ignored)
+results/
+summaries/
+*.pt
+*.pth
+
+# 4. IDE and Editor Directories
+.vscode/
+.idea/
+*.ipynb_checkpoints/
