@@ -35,7 +35,7 @@ ML Libraries: PyTorch, NumPy
 Environment Management: Python venv
 
 How to Run
-Clone the repo: git clone https://github.com/yourusername/Unity-2D-Autonomous-Racing-AI.git
+Clone the repo: git clone https://github.com/Atheredon/ML-Agents-2D-Car-Simulation.git
 Unity Setup: Open the project in Unity Hub (2022.3+). Load the TrainingScene.
 Python Setup: 
     python -m venv venv
